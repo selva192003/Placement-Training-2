@@ -1,0 +1,128 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       int n=16;
+      while(n%2==0){
+           n=n/2;
+       }
+    // if((n&n-1)==0){
+    //     System.out.println("yes power of 2");
+    // }
+       if(n==1){
+           System.out.println("yes power of 2");
+       }
+       else{
+           System.out.println("not power of 2");
+       }
+    }
+}
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int n=6;
+        for(int i=1;i<n;i++){
+            for(int j=1;j<=n-i;j++){
+                 System.out.print(" ");
+            }
+        
+             for(int k=1;k<=i;k++){
+                 System.out.print("*");
+             }
+                 System.out.println();
+             }
+            for(int i=n;i>=0;i--){
+            for(int j=1;j<=n-i;j++){
+                 System.out.print(" ");
+            }
+        
+             for(int k=1;k<=i;k++){
+                 System.out.print("*");
+             }
+                 System.out.println();
+             }
+    }
+}
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=0;i<n;i++){
+            for(int j=0;j<=i;j++){
+                 System.out.print("* ");
+            }
+             System.out.print("\n");
+        }
+        for(int i=0;i<=n;i++){
+            for(int j=n;j>=i;j--){
+                 System.out.print("* ");
+            }
+             System.out.print("\n");
+        }
+    }
+}
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+       int n=100;
+      while(n>1){
+      if(n%3!=0){
+         System.out.println("not power of 3");
+         return;
+      }
+       n/=3;
+    }
+    System.out.println("yes power of 3");
+    }
+}
+
+
+
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int n=5;
+        for(int i=1;i<n;i++){
+            for(int j=1;j<=n-i;j++){
+                 System.out.print(" ");
+            }
+        
+             for(int k=1;k<=i;k++){
+                 System.out.print(k);
+             }
+                 System.out.println();
+             }
+            for(int i=n;i>=0;i--){
+            for(int j=1;j<=n-i;j++){
+                 System.out.print(" ");
+            }
+        
+             for(int k=1;k<=i;k++){
+                 System.out.print( k );
+             }
+                 System.out.println();
+             }
+    }
+}
